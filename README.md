@@ -73,9 +73,25 @@ While WORLD is powerful, **modern speech emotion transfer** is moving toward **d
 
 ---
 
-## 🚀 Usage
+## 📚 References
 
-Run the code:
+- **WORLD Vocoder**: [Official WORLD Website](https://www.isc.meiji.ac.jp/~mmorise/world/english/)
+- **Expressive Voice Conversion Paper**: [ResearchGate](https://www.researchgate.net/publication/393696204_Expressive_voice_conversion_enhancing_prosody_and_emotion_consistency)
+- **Differentiable WORLD Synthesizer**: [OpenReview](https://openreview.net/forum?id=xJc3PazBwS)
+
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- pyworld
+- librosa
+- numpy
+- soundfile
+- matplotlib
+
+Install dependencies and run the script:
 
 ```bash
+pip install pyworld librosa numpy soundfile matplotlib
 python emotional_prosody_transfer.py
+
